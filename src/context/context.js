@@ -6,6 +6,7 @@ import { items } from "./productData";
 const ProductContext = React.createContext();
 //Provider
 //Consumer
+
 class ProductProvider extends Component {
   state = {
     sidebarOpen: false,
